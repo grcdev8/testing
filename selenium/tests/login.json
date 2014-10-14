@@ -8,7 +8,7 @@
       "url": "http://b11test4a.mentoringmindsonline.com/mysdb_m3_test4/_design/mys/mmloginw.html"
     },
     {
-      "type": "waitForElementPresent",
+      "type": "waitForElementSelected",
       "locator": {
         "type": "id",
         "value": "loginUserID"
