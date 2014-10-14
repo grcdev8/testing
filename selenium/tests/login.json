@@ -8,6 +8,10 @@
       "url": "http://b11test4a.mentoringmindsonline.com/mysdb_m3_test4/_design/mys/mmloginw.html"
     },
     {
+      "type": "waitForCurrentUrl",
+      "url": "http://b11test4a.mentoringmindsonline.com/mysdb_m3_test4/_design/mys/mmloginw.html"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -41,7 +45,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "dijit_MenuItem_25_text"
+        "value": "selectReportTypeW"
       }
     },
     {
