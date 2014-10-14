@@ -1,0 +1,152 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://b11test4a.mentoringmindsonline.com/mysdb_m3_test4/_design/mys/mmloginw.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginUserID"
+      },
+      "text": "113177 "
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "userPasswd"
+      },
+      "text": "Ctfl*5258"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "sign-in"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "managementBtn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#dojox_mobile_ToolBarButton_39 > span.mblToolBarButtonBody.mblColorDefault > table.mblToolBarButtonText > tbody > tr > td.mblToolBarButtonLabel"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "importUsersBigBtnBtn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.mysCloseButton"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "reportsBigBtnBtn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dijit_MenuItem_25_text"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dijit_MenuItem_30_text"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dijit_MenuItem_38_text"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='abId0.1610562084205276']//span[.='Select A Subject']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "reportGroupSelectWrapperW"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@id='abId0.31013903981079594']//span[.='QAClass233854']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dijit_MenuItem_39_text"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dijit_MenuItem_93_text"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "generateReportBtn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#dojox_mobile_ToolBarButton_33 > span.mblToolBarButtonBody.mblColorDefault > table.mblToolBarButtonText > tbody > tr > td.mblToolBarButtonLabel"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "td.mblToolBarButtonLabel"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
