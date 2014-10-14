@@ -1,0 +1,12 @@
+language: node_js
+before_script: 
+    - "npm install -g se-interpreter"
+script: 
+    - "se-interpreter selenium/interpreter_config.json"
+env:
+    global:
+        - SAUCE_USERNAME=jody3t
+        - secure: "CJ1isqja19pBhk7/oGXMWvMTskboe+nPOS2aHiInAOTj9XamTI2ABD8Hz602bYG3FO270Uq7dmiCU6brBiQJJjRm95A1yCVJz3aUrpjPdnb8DMsGxRKpYbNDeLPBUEPcQeVNfZXJ1rpZd/CP6oXMTF1acLHPkrNLOuoq/7m9qlI="
+
+
+          
